@@ -13,92 +13,74 @@
     <title>Crachá Virtual - DoWhile</title>
 
 </head>
-<body>
+  <body>
 
-    <main>
-        
-        <div class="container">
-            <div class="avatar">
-                <span>
-                    <img src="./images/build.svg" alt="Selo Rocketseat"/>
-                </span>
-                <img src="http://lorempixel.com/185/185/people/"
-                 alt="foto pessoal"
-                />
-            </div>
-            <h1 id="userName">Kauê Jacyntho</h1>
-            <a href="https://github.com/kauekaj" target="_blank">
-                <img src="./images/github.svg" alt="Ícone do github">kauekaj</a>
-            <p>Full Stack Developer</p> 
+      <main>
+          
+          <div class="container">
+              <div class="avatar">
+                  <span>
+                      <img src="./images/build.svg" alt="Selo Rocketseat"/>
+                  </span>
+                  <img id="userImage" src="http://lorempixel.com/185/185/people/"
+                  alt="foto pessoal"
+                  />
+              </div>
+              <h1 id="userName">Laura Barbosa</h1>
+              <a id="userLink" href="https://github.com/lbp" target="_blank">
+                  <img src="./images/github.svg" alt="Ícone do github"> <span id="userLogin">laurabnutri</span></a>
+              <p id="userBio">Full Stack Developer</p> 
 
-            <ul id="socialLinks">
-                <li class="youtube">
-                    <a
-                      href="https://www.youtube.com/UCxCUds9qRj-o3S9bmVnm4zA"
-                      target="_blank"
-                    >
-                      <img 
-                        src="./images/youtube.svg"
-                        alt="ícone do youtube"
-                      />
-                    </a>
-                </li>
-                <li class="facebook">
-                    <a 
-                      href="https://www.facebook.com/kauekaj"
-                      target="_blank"
-                    >
-                      <img 
-                        src="./images/facebook.svg"
-                        alt="ícone do facebook"                         
-                      />
-                    </a>
-                </li>
-                <li class="instagram">
-                    <a 
-                      href="https://www.instagram.com/kauekaj"
-                      target="_blank"
-                    >
-                      <img
-                        src="./images/instagram.svg"
-                        alt="ícone do instagram"
-                      />
-                    </a>
-                </li>
-                <li class="twitter">
-                    <a 
-                      href="https://www.twitter.com/kauekaj"
-                      target="_blank"
-                    >
-                      <img
-                        src="images/twitter.svg"
-                        alt="ícone do twitter"
-                      />
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </main>
+              <ul id="socialLinks">
+                  <li class="youtube">
+                      <a
+                        href="https://www.youtube.com/c/NutricionistaLauraBarbosa/videos"
+                        target="_blank"
+                      >
+                        <img 
+                          src="./images/youtube.svg"
+                          alt="ícone do youtube"
+                        />
+                      </a>
+                  </li>
+                  <li class="facebook">
+                      <a 
+                        href="https://www.facebook.com/laurinha.bp"
+                        target="_blank"
+                      >
+                        <img 
+                          src="./images/facebook.svg"
+                          alt="ícone do facebook"                         
+                        />
+                      </a>
+                  </li>
+                  <li class="instagram">
+                      <a 
+                        href="https://www.instagram.com/laurabnutri/"
+                        target="_blank"
+                      >
+                        <img
+                          src="./images/instagram.svg"
+                          alt="ícone do instagram"
+                        />
+                      </a>
+                  </li>
+                  <li class="twitter">
+                      <a 
+                        href="https://www.twitter.com/laurabnutri"
+                        target="_blank"
+                      >
+                        <img
+                          src="images/twitter.svg"
+                          alt="ícone do twitter"
+                        />
+                      </a>
+                  </li>
+              </ul>
+          </div>
+      </main>
 
-  <script>    
-    const LinksSocialMedia = {
-      github: 'kauekaj',
-      youtube: 'kauekaj',
-      facebook: 'kauekaj',
-      instagram: 'kauekaj',
-      twitter: 'kauekaj'
-    }
+    <script src="script.js"></script>
     
-    function changeSocialMediaLinks() {
-      for (let li of socialLinks.children) {
-        social =li.getAttribute('class')
-        li.children[0].href = `https://${social}.com/${LinksSocialMedia[social]}` 
-      }
-    }
-
-    changeSocialMediaLinks()
-    
-    // script.js
-  </script>
-</body>
+  </body>
 </html>
