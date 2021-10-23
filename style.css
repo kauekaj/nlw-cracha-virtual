@@ -20,8 +20,7 @@ body {
 main {
     background: url(images/new.background.svg) no-repeat center/cover;
     width: 100vw;
-    min-height: 812px;
-    height: 935px;
+    height: 812px;
     vertical-align: top;
 }
 .container {
