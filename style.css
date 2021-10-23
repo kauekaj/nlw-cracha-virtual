@@ -14,14 +14,14 @@ body {
 body {
     display: grid;
     place-items: center;
-
 }
 
 main {
     background: url(images/new.background.svg) no-repeat center/cover;
     width: 100vw;
-    height: 812px;
+    height: 165vw;
     vertical-align: top;
+
 }
 .container {
     width: 250px;
@@ -30,6 +30,10 @@ main {
     text-align: center;
 
     color: var(--grey);
+}
+
+.content {
+      margin-top: 2rem;
 }
 
 .avatar {
@@ -123,6 +127,7 @@ li:hover {
   
     .content {
       position: absolute;
+      margin-top: 2rem;
     }
 }
      
